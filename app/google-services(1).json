@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "276240465833",
+    "project_id": "rea-robot-c4293",
+    "storage_bucket": "rea-robot-c4293.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:276240465833:android:8b5fde3ce1ac0de2f38eb8",
+        "android_client_info": {
+          "package_name": "com.example.medi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "276240465833-gc96m5mglch6sjfti2o1mmcgbve8iq74.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB8HQFd4giXltQIMePRWJ39fBBdIopW0GY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "276240465833-gc96m5mglch6sjfti2o1mmcgbve8iq74.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

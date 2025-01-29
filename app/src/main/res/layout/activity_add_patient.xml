@@ -1,0 +1,89 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="18dp"
+    android:paddingRight="18dp"
+    tools:context="com.example.ReaRobot.patientAccount.AddPatientActivity">
+
+    <EditText
+        android:id="@+id/fullNameEditText"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:hint="Full Name"
+        android:inputType="text|textPersonName" />
+
+    <EditText
+        android:id="@+id/bedIdEditText"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Bed ID" />
+
+    <EditText
+        android:id="@+id/casEditText"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Case" />
+
+    <EditText
+        android:id="@+id/birthDateEditText"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:focusable="false"
+        android:hint="Birth Date"
+        android:inputType="datetime|date" />
+
+
+    <EditText
+        android:id="@+id/phoneNumberEditText"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Phone Number"
+        android:inputType="phone" />
+
+    <EditText
+        android:id="@+id/nationalityEditText"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Nationality" />
+
+    <EditText
+        android:id="@+id/sexEditText"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Gender" />
+
+    <EditText
+        android:id="@+id/addressEditText"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Address"
+        android:inputType="text|textPostalAddress" />
+
+    <EditText
+        android:id="@+id/entryDateEditText"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Entry Date"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/releaseDateEditText"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Release Date"
+        android:inputType="text" />
+
+    <Button
+        android:id="@+id/addButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:onClick="addPatientData"
+        android:text="Add Patient"
+        android:textSize="22sp" />
+
+</LinearLayout>

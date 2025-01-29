@@ -1,0 +1,48 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <EditText
+        android:id="@+id/diagnosisEditText"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Diagnosis" />
+
+    <EditText
+        android:id="@+id/treatmentEditText"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Treatment" />
+
+    <Button
+        android:id="@+id/addMedicationButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add Medication"
+        android:textSize="18sp" />
+
+    <ListView
+        android:id="@+id/medicationsListView"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:paddingTop="32dp"
+        android:paddingBottom="32dp" />
+
+    <EditText
+        android:id="@+id/medicationEditText"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Medication Name"
+        android:paddingTop="20dp" />
+
+    <Button
+        android:id="@+id/saveBtn"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="32dp"
+        android:text="Save"
+        android:textSize="22sp" />
+
+</LinearLayout>

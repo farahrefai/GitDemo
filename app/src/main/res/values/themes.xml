@@ -1,0 +1,10 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.ReaRobot" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary"> #02B4B4</item>
+        <item name="colorPrimaryVariant"> #02B4B4</item>
+        <item name="colorOnPrimary"> @color/white</item>
+    </style>
+
+    <style name="Theme.ReaRobot" parent="Base.Theme.ReaRobot" />
+</resources>

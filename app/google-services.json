@@ -1,0 +1,98 @@
+{
+  "project_info": {
+    "project_number": "675661769316",
+    "firebase_url": "https://rea-robot-1f029-default-rtdb.firebaseio.com",
+    "project_id": "rea-robot-1f029",
+    "storage_bucket": "rea-robot-1f029.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:675661769316:android:00e81924bc6deadf21cd71",
+        "android_client_info": {
+          "package_name": "com.example.ReaRobot"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "675661769316-h00sp01muoegaup3fj3u35rf01hpmh2q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBRBtvywdle8u9r0E4DjJxEE1RFk9-4gPk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "675661769316-h00sp01muoegaup3fj3u35rf01hpmh2q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:675661769316:android:6f9ed54a94bc746921cd71",
+        "android_client_info": {
+          "package_name": "com.example.conference"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "675661769316-h00sp01muoegaup3fj3u35rf01hpmh2q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBRBtvywdle8u9r0E4DjJxEE1RFk9-4gPk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "675661769316-h00sp01muoegaup3fj3u35rf01hpmh2q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:675661769316:android:aa710d8c58092ec821cd71",
+        "android_client_info": {
+          "package_name": "com.example.rearobotpfe"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "675661769316-h00sp01muoegaup3fj3u35rf01hpmh2q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBRBtvywdle8u9r0E4DjJxEE1RFk9-4gPk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "675661769316-h00sp01muoegaup3fj3u35rf01hpmh2q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

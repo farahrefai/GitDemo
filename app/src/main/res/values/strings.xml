@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ReaRobot</string>
+    <string name="sending_meeting_invitation" />
+    <string name="incoming_meeting_invitation" />
+</resources>

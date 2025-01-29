@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <!-- Customize this layout to display file information as needed -->
+    <ImageView
+        android:id="@+id/attachmentIconImageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_attachment" />
+
+    <TextView
+        android:id="@+id/attachmentNameTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:textSize="16sp" />
+
+    <ImageView
+        android:id="@+id/deleteAttachmentImageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_delete"
+        android:layout_gravity="end"
+        android:layout_weight="1"
+        android:padding="8dp" />
+
+</LinearLayout>

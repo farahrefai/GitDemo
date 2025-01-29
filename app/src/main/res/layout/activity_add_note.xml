@@ -1,0 +1,61 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context="com.example.ReaRobot.Note.AddNoteActivity">
+
+    <EditText
+        android:id="@+id/titleEditText"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Title" />
+
+    <EditText
+        android:id="@+id/contentEditText"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="8dp"
+        android:hint="Content" />
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewAttachments"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_marginTop="16dp" />
+
+    <!-- Add a button to add new file attachments -->
+    <Button
+        android:id="@+id/addAttachmentButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add Attachment"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="16dp" />
+
+    <ImageView
+        android:id="@+id/imageViewFileAttachment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewContent"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/ic_attachment" />
+
+    <Button
+        android:id="@+id/addButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add"
+        android:layout_marginTop="16dp" />
+    <TextView
+        android:id="@+id/visitNotetxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="130sp"
+        android:layout_marginTop="90sp"
+        android:text="Visit a note ?"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+</LinearLayout>

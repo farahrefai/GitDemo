@@ -1,0 +1,67 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/fullNameEditText"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Full name" />
+
+    <EditText
+        android:id="@+id/bedIdEditText"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="ID du lit" />
+
+    <EditText
+        android:id="@+id/casEditText"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Cas" />
+
+    <EditText
+        android:id="@+id/birthDateEditText"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="birth Date" />
+
+    <EditText
+        android:id="@+id/phoneNumberEditText"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Phone number" />
+
+    <EditText
+        android:id="@+id/nationalityEditText"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Nationality" />
+
+    <EditText
+        android:id="@+id/sexEditText"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Sex" />
+
+    <EditText
+        android:id="@+id/addressEditText"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Address" />
+
+    <EditText
+        android:id="@+id/entryDateEditText"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Entry Date" />
+
+    <EditText
+        android:id="@+id/releaseDateEditText"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Release Date" />
+
+
+</LinearLayout>
