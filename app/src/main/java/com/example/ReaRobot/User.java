@@ -5,6 +5,8 @@ import android.os.Parcelable;
 
 public class User implements Parcelable {
     private String fullNameUser;
+    private String fullNameUser1;
+    private String fullNameUser2;
     private String email;
     private String phoneNumberUser;
     private String speciality;
