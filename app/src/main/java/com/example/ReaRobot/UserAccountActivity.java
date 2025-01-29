@@ -28,6 +28,7 @@ import java.util.HashMap;
 public class UserAccountActivity extends AppCompatActivity {
     LinearLayout createLayout, visitLayout,medicalRecordid, DateTimeLayout,contactLayout, NoteLayout;
     FirebaseAuth firebaseAuth;
+    FirebaseAuth firebaseAuth1;
     private LinearLayout layoutHeader;
     private PreferenceManager preferenceManager;
 
