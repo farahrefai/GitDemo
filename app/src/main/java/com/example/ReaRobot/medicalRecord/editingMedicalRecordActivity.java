@@ -32,6 +32,9 @@ public class editingMedicalRecordActivity extends AppCompatActivity {
     private Patient selectedPatient;
     private Patient selectedPatient1;
     private Patient selectedPatient2;
+    private Patient selectedPatient3;
+    private Patient selectedPatient4;
+    private Patient selectedPatient5;
 
     @SuppressLint({"MissingInflatedId", "WrongViewCast"})
     @Override
