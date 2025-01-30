@@ -30,6 +30,8 @@ public class editingMedicalRecordActivity extends AppCompatActivity {
     private TextView deleteMedicalRecordtxt;
     private Button saveButton;
     private Patient selectedPatient;
+    private Patient selectedPatient1;
+    private Patient selectedPatient2;
 
     @SuppressLint({"MissingInflatedId", "WrongViewCast"})
     @Override

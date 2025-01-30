@@ -21,6 +21,8 @@ import java.util.List;
 
 public class AddMedicalRecordActivity extends AppCompatActivity {
     private EditText diagnosisEditText;
+    private EditText diagnosisEditText1;
+    private EditText diagnosisEditText2;
     private EditText treatmentEditText;
     private List<String> medicationsList;
     private ArrayAdapter<String> medicationsAdapter;

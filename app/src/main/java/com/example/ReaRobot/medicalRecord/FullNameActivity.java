@@ -37,6 +37,8 @@ import java.util.UUID;
 
 public class FullNameActivity extends AppCompatActivity {
     private EditText fullNameEditText;
+    private EditText fullNameEditText1;
+    private EditText fullNameEditText2;
     private String fullName = "";
 
     @SuppressLint("WrongViewCast")
